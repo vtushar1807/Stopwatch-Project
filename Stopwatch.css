@@ -1,0 +1,74 @@
+
+body{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+}
+#main{
+   height:90vh;
+   width: 90vw;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+}
+
+#clock{
+   height:90vh;
+   width:70vw;
+   background-color: black;
+   border: 3px solid orangered;
+   align-items: center;
+   justify-items: center;
+}
+#screen{
+   margin-top: 30px;
+   color:orangered;
+   font-size: 70px;
+   padding:20px;
+   border-radius: 30px;
+   box-shadow: orangered 0px 2px 24px;
+}
+.btn{
+   font-size: 30px;
+   margin-left: 80px;
+   margin-right: 80px;
+   height:80px;
+   width:80px;
+   border:2px solid orangered;
+   border-radius: 50%;
+   color:orangered;
+   text-shadow: 1px 1px black;
+}
+.btn:hover{
+   background-color: orangered;
+   color:white;
+}
+#button1{
+   width:6ovw;
+   margin-top: 30px;
+   height:20vh;
+   display: flex;
+}
+
+#lapDiv{
+   width:70vh;
+   height:40vh;
+   border:1px solid orangered;
+   
+   overflow-y: scroll;
+}
+
+.lapsProp{
+   height:30px;
+   margin-top: 2px;
+   color:white;
+   background-color: rgba(255, 255, 255,0.2);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.resetFont{
+   font-size:25px;
+}
